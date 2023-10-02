@@ -1,0 +1,60 @@
+    #grandparent
+    {
+        height: 100%;
+        display: table;
+        margin: auto;
+    }
+    #parent
+    {
+        background-color: rgba(255, 0, 0, 0.861);
+        height: 210px;
+        width: 465px;
+        border-radius: 15px;
+        padding: 10px;
+        vertical-align: middle;
+        display: table-cell;
+    }
+    #emailInput
+    {
+        display: block;
+        margin-top: 5px;
+        background: transparent;
+        width: 450px;
+        height: 37.5px;
+        color: white; 
+        padding-left: 10px;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 1px solid white;
+        border-width: 1.5px;
+    }
+    #passwordInput
+    {
+        display: block;
+        margin-top: 5px;
+        background: transparent;
+        width: 450px;
+        height: 37.5px;
+        color: white; 
+        padding-left: 10px;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 1px solid white;
+        border-width: 1.5px;
+    }
+    #signInButton
+    {
+        display: block;
+        margin-top: 5px;
+        width: 450px;
+        height: 37.5px;
+        background-color: white;
+        color: red;
+        font-weight: bold; 
+        border: none; 
+        border-radius: 18px;
+    }
+    p
+    {
+        font-size:small;
+    }

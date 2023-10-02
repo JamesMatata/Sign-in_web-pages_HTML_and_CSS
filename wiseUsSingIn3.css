@@ -1,0 +1,104 @@
+body
+{
+    background-image: linear-gradient(to right, rgb(143, 27, 4), red);
+}
+.logInText
+{
+    font-size: 30px;
+    margin: 0;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(143, 27, 4);
+}
+#passwordInput
+{
+    background-color: transparent;
+    height: 35px;
+    width: 250px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid rgb(143, 27, 4);
+    border-width: 1.5px;
+    display: block;
+    margin-top: 15px;
+    padding-left: 10px;  
+}
+#emailInput
+{
+    background-color: transparent;
+    height: 35px;
+    width: 250px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid rgb(143, 27, 4);
+    border-width: 1.5px;
+    display: block;
+    margin-top: 15px;
+    padding-left: 10px;  
+}
+.continueButton
+{
+    background-image: linear-gradient(to right, rgb(143, 27, 4), red);
+    height: 35px;
+    width: 250px;
+    border-radius: 2px;
+    color: white;
+    border: none;
+    display: block;
+    margin-top: 15px; 
+    font-size: 16px;
+}
+.optionText
+{
+    text-align: center;
+}
+div
+{
+    background-color: white; 
+    height: 400px; 
+    padding: 20px;
+    width: 260px;
+    border-radius: 4px;
+    margin: auto;
+}
+.logo
+{
+    width: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.signInWithText
+{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: arial;
+    color: white;
+    margin: 0;
+}
+.signInWithFacebookButton
+{
+    background-color: rgb(43, 83, 161);
+    height: 35px;
+    width: 250px;
+    border-radius: 2px;
+    border: none;
+    display: block;
+    margin-top: 15px;
+    
+}
+.signInWithTwitterButton
+{
+    background-color: rgb(53, 139, 179);
+    height: 35px;
+    width: 250px;
+    border-radius: 2px;
+    border: none;
+    display: block;
+    margin-top: 15px;
+    
+}

@@ -1,0 +1,95 @@
+body
+{
+    font-family: arial;
+}
+.mainDiv
+{
+    width: 400px;
+    height: 350px;
+    border-radius: 15px;
+    background-image: linear-gradient(To right,rgb(154, 2, 2), rgb(255, 0, 0));
+    padding: 20px;
+    margin: auto;
+}
+.signInText1
+{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+.signInText2
+{
+    color: rgb(197, 191, 191);
+    font-size: 13px;
+    text-align: center;
+    margin-top: 10px;
+}
+.guideText
+{
+    color: rgb(236, 234, 234);
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+#username
+{
+    width: 370px;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    padding-left: 10px;
+    font-size: 14px;
+}
+#password
+{
+    width: 370px;
+    height: 30px;
+    display: block;
+    border-radius: 3px;
+    border: none;
+    padding-left: 10px;
+    font-size: 14px;
+}
+#rememberMeCheckBox
+{
+    margin-top: 10px;
+    display: inline-block;
+}
+.rememberMeText
+{
+    display: inline-block;
+    color: rgb(236, 234, 234);
+    font-size: 12px;
+    margin-top: 5px;
+}
+.forgotPasswordLink
+{
+    display: inline-block;
+    color: aqua;
+    font-size: 12px;
+    margin-left: 160px;
+    cursor: pointer;
+}
+#signInButton
+{
+    display: block;
+    width: 370px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: wait;
+}
+.registerText
+{
+    font-size: 12px;
+    color: rgb(236, 234, 234);
+    text-align: center;
+}
+.registerLink
+{
+    color: aqua;
+    cursor: pointer;
+}
